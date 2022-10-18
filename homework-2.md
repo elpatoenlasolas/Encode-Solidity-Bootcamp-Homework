@@ -31,5 +31,5 @@ This information seems to indicate how hackers have breached the security and co
 
 3. Both addresses belong to Vitalik Butterin.
 
-4. ![Solution:](./resources/img/screen.png)
+4. ![Solution:](./screen.png)
 
