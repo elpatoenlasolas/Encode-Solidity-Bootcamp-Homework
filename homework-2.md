@@ -19,6 +19,15 @@ D. 1. Using remix add this contract as a source file
  1. Compile the contract
  2. Deploy the contract to the Remix VM environment
 
+
+
+
+=========================================================================================================
+
+
+
+
+
 A. 
     1. Interacts with 'The DAO' contract.
     2. Internal Swap in Uniswap.
