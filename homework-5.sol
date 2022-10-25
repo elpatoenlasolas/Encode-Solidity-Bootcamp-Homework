@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract VolcanoCoin is Ownable{
    
-    uint256 totalSuppyl = 10000;
+    uint256 totalSupply = 10000;
     mapping(address=>uint256) public balances;
 
     struct Payment {
@@ -20,16 +20,16 @@ contract VolcanoCoin is Ownable{
     event TokenTransfer(uint,address);
 
     constructor(){
-        balances[owner()] = totalSuppyl;
+        balances[owner()] = totalSupply;
     }
 
     function getTotalSupply() public view returns(uint256){
-        return totalSuppyl;
+        return totalSupply;
     }
 
     function increaseTotalSupply() public onlyOwner{
         totalSuppyl += 1000;
-        emit TotalSupplyUpdated(totalSuppyl);
+        emit TotalSupplyUpdated(totalSupply);
     }
     
     function transfer(uint256 amount,address recipient) public{
