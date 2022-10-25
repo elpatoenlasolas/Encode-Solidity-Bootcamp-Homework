@@ -5,11 +5,11 @@
 
 1.  
 
-    ⋅⋅1. Interacts with 'The DAO' contract.
-    ⋅⋅2. Internal Swap in Uniswap.
-    ⋅⋅3. Seem to be an exploit of a contract, apparently the massive hack that happened to Binance.
-    ⋅⋅4. Idem #3.
-    ⋅⋅5. Another compromised wallet that interacted with the exploit of the Polygon Network.
+    1. Interacts with 'The DAO' contract.
+    2. Internal Swap in Uniswap.
+    3. Seem to be an exploit of a contract, apparently the massive hack that happened to Binance.
+    4. Idem #3.
+    5. Another compromised wallet that interacted with the exploit of the Polygon Network.
    
 This information seems to indicate how hackers have breached the security and compromised the assets of walllets and keys from other participants of the blockchain.
 
