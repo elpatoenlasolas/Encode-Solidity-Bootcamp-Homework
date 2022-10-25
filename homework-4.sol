@@ -3,7 +3,7 @@
 pragma solidity ^0.8.0;
 
 contract VolcanoCoin {
-    uint256 totalSuppyl = 10000;
+    uint256 totalSupply = 10000;
     address owner;
     mapping(address=>uint256) public balances;
 
@@ -18,7 +18,7 @@ contract VolcanoCoin {
     event TokenTransfer(uint,address);
     constructor(){
         owner = msg.sender;
-        balances[owner] = totalSuppyl;
+        balances[owner] = totalSupply;
     }
     
     modifier onlyOwner(){
@@ -27,12 +27,12 @@ contract VolcanoCoin {
     }
 
     function getTotalSupply() public view returns(uint256){
-        return totalSuppyl;
+        return totalSupply;
     }
 
     function increaseTotalSupply() public onlyOwner{
-        totalSuppyl += 1000;
-        emit TotalSupplyUpdated(totalSuppyl);
+        totalSupply += 1000;
+        emit TotalSupplyUpdated(totalSupply);
     }
     
     function transfer(uint256 amount,address recipient) public{
