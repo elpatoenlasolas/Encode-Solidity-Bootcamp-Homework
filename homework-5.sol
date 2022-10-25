@@ -28,7 +28,7 @@ contract VolcanoCoin is Ownable{
     }
 
     function increaseTotalSupply() public onlyOwner{
-        totalSuppyl += 1000;
+        totalSupply += 1000;
         emit TotalSupplyUpdated(totalSupply);
     }
     
