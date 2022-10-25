@@ -3,7 +3,9 @@
 ## Homework - Day 2
 
 
-1. ⋅⋅1. Interacts with 'The DAO' contract.
+1.  
+
+    ⋅⋅1. Interacts with 'The DAO' contract.
     ⋅⋅2. Internal Swap in Uniswap.
     ⋅⋅3. Seem to be an exploit of a contract, apparently the massive hack that happened to Binance.
     ⋅⋅4. Idem #3.
